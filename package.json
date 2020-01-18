@@ -4,14 +4,24 @@
   "description": "front-end-test",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Fernando Sanchez",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "autoprefixer": "^9.7.4",
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
