@@ -4,11 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Prueba Front</title>
 </head>
 <body>
-  <div class="jumbotron"></div>
-  <h1 class="display-1">Hello World</h1>  
+
+  <!-- Nav Bar -->
+  <nav class="container-fluid section-nav my-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+  <!-- JumboTron Container -->
+  <article class="container section-jumbotron">
+    <section class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-3 font-weight-bold jumbotron-title">Vestibulum ante ipsum 
+        primis in faucibus</h1>
+      <p class="lead jumbotron-text">Morbi in sollicitudin lorem. Fusce gravida ipsum eros, at laoreet velit auctor non. Sed aliquam finibus viverra. 
+        Vestibulum id massa mi. Nunc non lectus ut tortor fermentum tincidunt. Suspendisse feugiat sit amet 
+        </p>
+    </div>
+    </section>
+  </article>
+  <!-- Bundle Javascript -->
   <script src="./bundle.js"></script> 
 </body>
 </html>
