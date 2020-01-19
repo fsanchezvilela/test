@@ -126,8 +126,25 @@ li{
   .section-sidebar{
     margin-top: 1%;
     padding: 1%;
-    height: 12em;
-    background-color: purple;
+    height: 100%;
+    background-color: #954da4;
     max-width: 80%;
+    .inner{
+      color: #c9c9c9;
+      font-family: OpenSans;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      padding: 1%;
+      .inner-title{
+        font-size: 1.2em;
+      }
+      .inner-description{
+        font-size: 0.8em;
+      }
+    }
   }
 }

@@ -94,6 +94,20 @@ li {
 .section-main .section-sidebar {
   margin-top: 1%;
   padding: 1%;
-  height: 12em;
-  background-color: purple;
+  height: 100%;
+  background-color: #954da4;
   max-width: 80%; }
+  .section-main .section-sidebar .inner {
+    color: #c9c9c9;
+    font-family: OpenSans;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 1%; }
+    .section-main .section-sidebar .inner .inner-title {
+      font-size: 1.2em; }
+    .section-main .section-sidebar .inner .inner-description {
+      font-size: 0.8em; }
