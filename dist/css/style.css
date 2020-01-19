@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue; }
+    background-color: #ff8e8e; }
   .navbar-nav {
     height: 100%; }
   .section-jumbotron .jumbotron-title {
@@ -30,7 +30,7 @@
         line-height: 1.5; } }
 
 body {
-  background-color: #ff8e8e; }
+  background-color: #ff8e8e !important }
 
 li {
   list-style: none; }
