@@ -27,9 +27,49 @@ body{
   // img main boxes
   .section-img{
     .box{ 
-      height: 12em;
+      height: 100%;
+      width: auto;
       background-color: #fff;
       margin: 1%;
+      padding: 0%;
+      .box-header{
+        height: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden; 
+        }
+      }
+      .box-circle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);;
+        width: 110px;
+        height: 110px;
+        border: solid 2px #c9c9c9;;
+        box-sizing: border-box;
+        border-radius: 100%;
+        background-color: #fff;
+        padding: 1%;      
+      }
+      .box-body{
+        height: 6em;
+       
+        .box-body-title{
+          font-size: 0.7em;
+          font-weight: bold;
+          padding: 0% 20%;
+          margin-top: 10%;
+          margin-bottom: 0%
+        }
+        .box-body-description{
+          font-size: 0.8em;
+          padding: 0% 20%;
+        }
+      }
     }
   }
   // secondary section
