@@ -1,3 +1,7 @@
+//Media mobile
+
+
+
 
 body{
   background-color: #ff8e8e;
@@ -5,6 +9,52 @@ body{
 li{
   list-style: none;
 }
+
+// navbar section
+.section-nav {
+ 
+  .active{
+    background-color: #EDEDED;
+  }
+  a{
+    height: 4em;
+    display: block;
+    line-height: 3;
+    
+  };
+  .section-nav-main{
+    background-color: #901219;
+    padding: 0rem 1rem;
+    .navbar-brand{
+    
+      background-color: #29813C;
+      .brand-img{
+        background-color: #29813C;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .ingles-link{
+      background-color: #29813C;
+    
+    }
+    .navbar-nav{
+      height: 5em;
+      width: 100%;
+      
+      li{
+        a{
+          line-height: 4;
+          padding: 0.5em 1em;
+        }
+        
+      }
+    }
+  }
+ 
+}
+
 // JumboTron Section 
 .section-jumbotron{
   .jumbotron-fluid{

@@ -4,6 +4,33 @@ body {
 li {
   list-style: none; }
 
+.section-nav .active {
+  background-color: #EDEDED; }
+
+.section-nav a {
+  height: 4em;
+  display: block;
+  line-height: 3; }
+
+.section-nav .section-nav-main {
+  background-color: #901219;
+  padding: 0rem 1rem; }
+  .section-nav .section-nav-main .navbar-brand {
+    background-color: #29813C; }
+    .section-nav .section-nav-main .navbar-brand .brand-img {
+      background-color: #29813C;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+  .section-nav .section-nav-main .ingles-link {
+    background-color: #29813C; }
+  .section-nav .section-nav-main .navbar-nav {
+    height: 5em;
+    width: 100%; }
+    .section-nav .section-nav-main .navbar-nav li a {
+      line-height: 4;
+      padding: 0.5em 1em; }
+
 .section-jumbotron .jumbotron-fluid {
   background-color: #828282; }
 
